@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;            
+    align-self: flex-end;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+    padding: 25px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.coin-img {
+    border-radius: 10px;
+}
+
+.coin-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin-infos p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coin-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 15px;
+}
+
+.coin-footer span {
+    color: white;
+}
+
+.coin-footer img {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
